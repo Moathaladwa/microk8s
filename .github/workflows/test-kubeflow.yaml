@@ -46,7 +46,7 @@ jobs:
         uses: actions/checkout@v2.4.0
 
       - name: Download built snap
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: microk8s.snap
 
@@ -135,7 +135,7 @@ jobs:
         uses: actions/checkout@v2.4.0
 
       - name: Download built snap
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: microk8s.snap
 
